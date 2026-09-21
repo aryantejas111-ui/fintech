@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield Outer Glow / Border -->
+    <path
+        android:pathData="M54,23 L79,33 C79,57 68,73 54,84 C40,73 29,57 29,33 Z"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="23"
+                android:endX="54"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#332563EB" android:offset="0.0" />
+                <item android:color="#3310B981" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Upward Wealth Growth Arrow & Bars -->
+    <!-- Bar 1 -->
+    <path
+        android:pathData="M38,62 L43,62 L43,68 L38,68 Z"
+        android:fillColor="#93C5FD" />
+    <!-- Bar 2 -->
+    <path
+        android:pathData="M46,54 L51,54 L51,68 L46,68 Z"
+        android:fillColor="#60A5FA" />
+    <!-- Bar 3 -->
+    <path
+        android:pathData="M54,46 L59,46 L59,68 L54,68 Z"
+        android:fillColor="#34D399" />
+    <!-- Bar 4 / Peak -->
+    <path
+        android:pathData="M62,38 L67,38 L67,68 L62,68 Z"
+        android:fillColor="#10B981" />
+
+    <!-- Growth Line & Arrow -->
+    <path
+        android:pathData="M38,58 L48,50 L56,52 L68,36"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Arrow tip -->
+    <path
+        android:pathData="M63,36 L68,36 L68,41"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
+

@@ -1,0 +1,7 @@
+{
+  "name": "Fintech",
+  "description": "Visualised client dashboard for Fintech unifying investments and insurance protection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

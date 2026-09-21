@@ -1,0 +1,244 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="360dp"
+    android:height="180dp"
+    android:viewportWidth="360"
+    android:viewportHeight="180">
+
+    <!-- Deep Midnight Gradient Canvas -->
+    <path
+        android:pathData="M16,0 L344,0 A16,16 0 0,1 360,16 L360,164 A16,16 0 0,1 344,180 L16,180 A16,16 0 0,1 0,164 L0,16 A16,16 0 0,1 16,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="360"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0B1528" />
+                <item android:offset="0.45" android:color="#0F284E" />
+                <item android:offset="1.0" android:color="#051C38" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ambient Glowing Light Aura Behind Canopy -->
+    <path
+        android:pathData="M180,8 L290,170 L70,170 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="180"
+                android:startY="10"
+                android:endX="180"
+                android:endY="170"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#3538BDF8" />
+                <item android:offset="0.5" android:color="#1822C55E" />
+                <item android:offset="1.0" android:color="#000F284E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Protective Canopy / Umbrella Shield Arch (Overhead 360 Dome) -->
+    <path
+        android:pathData="M 40,78 C 65,22 140,12 180,12 C 220,12 295,22 320,78 C 300,72 265,70 240,78 C 215,70 145,70 120,78 C 95,70 60,72 40,78 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="180"
+                android:startY="12"
+                android:endX="180"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4038BDF8" />
+                <item android:offset="1.0" android:color="#200284C7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Rim of Canopy -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round"
+        android:pathData="M 40,78 C 65,22 140,12 180,12 C 220,12 295,22 320,78" />
+
+    <!-- Radiant Shield Crest at the Summit -->
+    <path
+        android:pathData="M180,10 L192,16 L192,26 C192,34 180,39 180,39 C180,39 168,34 168,26 L168,16 Z"
+        android:fillColor="#F59E0B" />
+    <path
+        android:pathData="M180,13 L189,18 L189,25 C189,31 180,35 180,35 C180,35 171,31 171,25 L171,18 Z"
+        android:fillColor="#FBBF24" />
+    <!-- Checkmark inside crest -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M176,24 L179,27 L185,21" />
+
+    <!-- Connecting Safety Arc Baseline (360 Foundation) -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#1E3A5F"
+        android:pathData="M 40,146 Q 180,158 320,146" />
+
+    <!-- ============================================== -->
+    <!-- PILLAR 1 (LEFT): LIFE & FAMILY PROTECTION      -->
+    <!-- ============================================== -->
+    <!-- Outer Glow Ring -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#F59E0B"
+        android:pathData="M 75,76 A 34,34 0 1 0 75.01,76" />
+    <!-- Filled Glowing Pedestal -->
+    <path
+        android:pathData="M 75,78 A 32,32 0 1 0 75.01,78">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="75"
+                android:startY="46"
+                android:endX="75"
+                android:endY="110"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#35F59E0B" />
+                <item android:offset="1.0" android:color="#1A1E293B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Life Heart & Family Icon Inside Pillar 1 -->
+    <!-- Warm Radiant Heart -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M75,69 C73,63 64,63 64,71 C64,78 75,85 75,85 C75,85 86,78 86,71 C86,63 77,63 75,69 Z" />
+    <!-- Family Heads Silhouette -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M71,61 A 3,3 0 1 0 71.01,61" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M79,61 A 2.8,2.8 0 1 0 79.01,61" />
+    <!-- Pillar 1 Banner Badge -->
+    <path
+        android:pathData="M52,120 L98,120 A6,6 0 0,1 104,126 L104,136 A6,6 0 0,1 98,142 L52,142 A6,6 0 0,1 46,126 L46,126 A6,6 0 0,1 52,120 Z"
+        android:fillColor="#25D97706" />
+    <path
+        android:strokeWidth="1"
+        android:strokeColor="#F59E0B"
+        android:pathData="M52,120 L98,120 A6,6 0 0,1 104,126 L104,136 A6,6 0 0,1 98,142 L52,142 A6,6 0 0,1 46,126 L46,126 A6,6 0 0,1 52,120 Z" />
+
+    <!-- ============================================== -->
+    <!-- PILLAR 2 (CENTER): HEALTH & MEDICAL PROTECTION -->
+    <!-- ============================================== -->
+    <!-- Elevated Center Outer Glow Ring -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#38BDF8"
+        android:pathData="M 180,68 A 38,38 0 1 0 180.01,68" />
+    <!-- Filled Glowing Pedestal -->
+    <path
+        android:pathData="M 180,70 A 36,36 0 1 0 180.01,70">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="180"
+                android:startY="34"
+                android:endX="180"
+                android:endY="106"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#450284C7" />
+                <item android:offset="1.0" android:color="#1A0C4A6E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Medical Cross with Pulse Beat -->
+    <!-- Medical Shield Badge -->
+    <path
+        android:pathData="M180,48 L194,54 L194,66 C194,77 180,84 180,84 C180,84 166,77 166,66 L166,54 Z"
+        android:fillColor="#0284C7" />
+    <path
+        android:pathData="M180,51 L191,56 L191,65 C191,74 180,80 180,80 C180,80 169,74 169,65 L169,56 Z"
+        android:fillColor="#38BDF8" />
+    <!-- White Medical Cross Inside Shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M178,57 L182,57 L182,62 L187,62 L187,66 L182,66 L182,71 L178,71 L178,66 L173,66 L173,62 L178,62 Z" />
+    <!-- EKG Heartbeat wave underneath -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#22C55E"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 163,94 L 171,94 L 175,88 L 180,98 L 185,91 L 189,94 L 197,94" />
+    <!-- Pillar 2 Banner Badge -->
+    <path
+        android:pathData="M152,118 L208,118 A6,6 0 0,1 214,124 L214,136 A6,6 0 0,1 208,142 L152,142 A6,6 0 0,1 146,136 L146,124 A6,6 0 0,1 152,118 Z"
+        android:fillColor="#300284C7" />
+    <path
+        android:strokeWidth="1.2"
+        android:strokeColor="#38BDF8"
+        android:pathData="M152,118 L208,118 A6,6 0 0,1 214,124 L214,136 A6,6 0 0,1 208,142 L152,142 A6,6 0 0,1 146,136 L146,124 A6,6 0 0,1 152,118 Z" />
+
+    <!-- ============================================== -->
+    <!-- PILLAR 3 (RIGHT): VEHICLE & MOTOR PROTECTION   -->
+    <!-- ============================================== -->
+    <!-- Outer Glow Ring -->
+    <path
+        android:strokeWidth="1.5"
+        android:strokeColor="#22C55E"
+        android:pathData="M 285,76 A 34,34 0 1 0 285.01,76" />
+    <!-- Filled Glowing Pedestal -->
+    <path
+        android:pathData="M 285,78 A 32,32 0 1 0 285.01,78">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="285"
+                android:startY="46"
+                android:endX="285"
+                android:endY="110"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#3522C55E" />
+                <item android:offset="1.0" android:color="#1A1E293B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Sleek Modern Car Silhouette & Road Shield -->
+    <!-- Vehicle Body -->
+    <path
+        android:fillColor="#4ADE80"
+        android:pathData="M272,70 L277,63 C278,61 280,60 283,60 L291,60 C294,60 296,61 297,63 L302,70 L304,70 C306,70 307,71 307,73 L307,79 C307,80 306,81 305,81 L304,81 A 3,3 0 0 1 298,81 L276,81 A 3,3 0 0 1 270,81 L269,81 C268,81 267,80 267,79 L267,73 C267,71 268,70 270,70 Z" />
+    <!-- Car Cabin Window -->
+    <path
+        android:fillColor="#0B1528"
+        android:pathData="M278,69 L296,69 L293,63 C292,62 291,62 290,62 L284,62 C283,62 282,62 281,63 Z" />
+    <!-- Car Wheels -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M273,81 A 2.8,2.8 0 1 0 273.01,81" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M301,81 A 2.8,2.8 0 1 0 301.01,81" />
+    <!-- Pillar 3 Banner Badge -->
+    <path
+        android:pathData="M262,120 L308,120 A6,6 0 0,1 314,126 L314,136 A6,6 0 0,1 308,142 L262,142 A6,6 0 0,1 256,136 L256,126 A6,6 0 0,1 262,120 Z"
+        android:fillColor="#2516A34A" />
+    <path
+        android:strokeWidth="1"
+        android:strokeColor="#22C55E"
+        android:pathData="M262,120 L308,120 A6,6 0 0,1 314,126 L314,136 A6,6 0 0,1 308,142 L262,142 A6,6 0 0,1 256,136 L256,126 A6,6 0 0,1 262,120 Z" />
+
+    <!-- Ambient Floating Stars / Energy Sparkles -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M110,32 L112,37 L117,39 L112,41 L110,46 L108,41 L103,39 L108,37 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M250,30 L251.5,34 L255.5,35.5 L251.5,37 L250,41 L248.5,37 L244.5,35.5 L248.5,34 Z" />
+    <path
+        android:fillColor="#86EFAC"
+        android:pathData="M180,154 L181.5,157 L184.5,158.5 L181.5,160 L180,163 L178.5,160 L175.5,158.5 L178.5,157 Z" />
+
+    <!-- Labels on the Pedestals inside vector -->
+    <!-- Pillar 1 text indicator: LIFE -->
+    <!-- Pillar 2 text indicator: HEALTH -->
+    <!-- Pillar 3 text indicator: VEHICLE -->
+</vector>
